@@ -16,3 +16,9 @@
 ![lot_summary](https://user-images.githubusercontent.com/118491043/227822232-28d7b137-ef36-4d1c-bd7c-e935c7fa9f17.png)
 
 Overall, the variance for the entire dataset indicates that the current manufacturing data meets the 100 pounds per square inch variance limitation. However, if we look at the third lot individually, it demonstrates a much higher variance. Therefore there is a possiblity that a third of the lot does not meet the necessary suspension coils requirement.
+
+## T-Tests on Suspension Coils
+
+![Screenshot 2023-03-26 at 9 16 33 PM (2)](https://user-images.githubusercontent.com/118491043/227824877-652fcfa4-85fe-41ba-9bec-1eb0335c613b.png)
+
+We fail to reject the null hypothesis since the p-value equals 0.06. The sample mean may be equivalent to the true population mean. The same goes for Lot #1 and #2, as you can see on the above image, the p-value for lot #1 is 1, and for lot #2 is 0.6. If we pay close attention we will notice the confidence interval becomes smaller for both lots. This implies there is more precision in predicting the true population mean. However, in lot #3 we can reject the null hypothesysas the p-value is significantly smaller.
